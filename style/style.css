@@ -103,12 +103,12 @@ blockquote {
 
 ::-moz-selection { /* Code for Firefox */
     color: black;
-    background: #d3ffd3;
+    background: #99d7d6;
 }
   
 ::selection {
     color: black;
-    background: #d3ffd3;
+    background: #99d7d6;
 }
 
 .content ul {
