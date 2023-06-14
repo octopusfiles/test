@@ -70,13 +70,27 @@
 
             <ul>
             
+                <li>UPCOMING: </li>
+                <li>UPCOMING: </li>
                 <li></li>
                 <li></li>
             </ul>
 
-            <br /><br />
+          
+
+            <br><br><br><br>
 
         </div>
+
+        <div id="arrow" class="arrow">
+               
+            <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img src="../assets/arrow.png" alt="back to top" style="cursor: pointer;"></a>
+
+        </div>
+          
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
 
         <!--Menu Open/Close-->
 
@@ -107,22 +121,27 @@
 
             function myFunction() {
 
-            // var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            // var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            // var scrolled = (winScroll / height) * 100;
-            // document.getElementById("myBar").style.width = scrolled + "%";
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
 
             
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
                 document.getElementById("title").style.fontSize = "22px";
             } else {
                 document.getElementById("title").style.fontSize = "30px";
             }
 
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                document.getElementById("arrow").style.display = "block";
+            } else {
+                document.getElementById("arrow").style.display = "none";
+            }
+
             } 
 
         </script>
-
 
     </body>
 
