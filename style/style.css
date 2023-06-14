@@ -139,47 +139,6 @@ blockquote {
 .content p {
     line-height: 1.5;
 }
-
-body {
-    counter-reset: sidenote-counter;
-}
-
-.sidenote__checkbox {
-    display: none;
-} 
-
-.sidenote-number {
-    counter-increment: sidenote-counter;
-}
-
-/* Counter before the sidenote in the margin. */
-.sidenote::before {
-    content: counter(sidenote-counter) ". ";
-    position: relative;
-    vertical-align: baseline;
-    font-size: 0.9em;
-    font-weight: bold;
-}
-
-/* Counter in the main body. */
-.sidenote-number::after {
-    content: counter(sidenote-counter);
-    vertical-align: super;
-    font-size: 0.7em;
-    font-weight: bold;
-}
-
-.sidenote {
-    color: #2d2d2d;
-    font-size: 13px;
-}
-
-/* Hidden semantic content */
-.semantic {
-    position: absolute;
-    left: -99999px;
-    top: auto;
-}
   
 /* The progress container (grey background) */
 .progress-container {
@@ -273,7 +232,7 @@ button {
   
     .nav-logo img {
         height: 100px;
-        margin: 50px 0px 50px 0px;
+        margin: 20px 0px 20px 0px;
         
     }
 
@@ -336,12 +295,12 @@ button {
     .content h1,
     .content h2,
     .content h3 {
-        padding: 0px 0px 10px 0px;
+        padding: 5px 0px 15px 0px;
     }
 
     .content h1 {
         position: sticky;
-        top: -5px;
+        top: 0px;
     }
 
     p {
@@ -351,8 +310,8 @@ button {
     .arrow {
         display: none;
         position: fixed;
-        bottom: 5px;
-        right: 10vw;
+        bottom: 25px;
+        right: 15vw;
         animation-name: arrowappear;
         animation-duration: 0.4s;
     }
@@ -484,25 +443,6 @@ button {
     .toc {
         font-size: 13px;
     }
-
-    .essay {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .data {
-        margin: 5px 0px 0px 0px;
-    }
-    
-    .text {
-        padding: 5px 0px 0px 0px;
-        width: 90%;
-    }
-    
-    .sidenote__button {
-        cursor: pointer;
-        color: #d3ffd3;
-    }
       
     .arrow {
         display: none;
@@ -518,47 +458,6 @@ button {
         padding: 10px;
         background-color: #009c99;
         border-radius: 10%;
-    }
-
-    .sidenote__checkbox ~ .sidenote-number .sidenote {
-        position: absolute;
-        left: -99999px;
-        top: auto;
-    }
-
-    /* HIDE ONE OF THE SIDENOTE NUMBERS ON CLICK */
-    .sidenote__checkbox:checked ~ .sidenote-number::after {
-        position: absolute;
-        left: -99999px;
-        top: auto;
-    }
-
-    .sidenote__checkbox:checked ~ .sidenote-number .sidenote {
-        position: initial;
-        left: auto;
-        
-        /* float: left; */
-
-        width: fit-content;
-        /* margin-top: 1rem; */
-        margin: 0px 5px;
-        padding: 0px 5px;
-        
-        text-align: left;
-
-        /* VISUALLY SEPARATE SIDENOTE INLINE */
-        color: #2d2d2d;
-        background-color: #009c99;
-    }
-
-    .sidenote__checkbox ~ .sidenote__button {
-        color: #d3ffd3;
-    }
-
-    /* SHOW THAT SIDENOTE IS EXPANDED */
-    .sidenote__checkbox:checked ~ .sidenote__button {
-        color:#d3ffd3;
-        text-decoration: underline;
     }
 
 }
