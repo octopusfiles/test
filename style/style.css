@@ -57,31 +57,10 @@ a:visited {
     color: #009c99;
 }
 
-.sidenote a:link {
-    color: #2d2d2d;
-    text-decoration: underline;
-    background: transparent;
-}
-
-.sidenote a:hover {
-    color:  #2d2d2d;
-    text-decoration: underline;
-}
-
-.sidenote a:active {
-    color: #2d2d2d;
-    text-decoration: underline;
-}
-
-.sidenote a:visited {
-    color: #2d2d2d;
-    text-decoration: underline;
-}
-
 blockquote {
     margin: 15px 0px;
     padding: 10px 15px;
-    border-left: 5px solid #d3ffd3;
+    border-left: 5px solid #009c99;
     font-size: 17px;
 }
 
