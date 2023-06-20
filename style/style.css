@@ -361,10 +361,10 @@ button {
     .nav-links {
         margin: 0px 0px 0px 0px;
         height: 100vh;
-        width: 150px;
+        width: 200px;
         background-color: black;
         top: 0;
-        right: -150px;
+        right: -200px;
         position: fixed;
         padding-left: 35px;
         padding-top: 50px;
