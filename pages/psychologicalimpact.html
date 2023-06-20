@@ -88,9 +88,19 @@
                 </ul>
             
 
-            <br /><br />
+            <br /><br /><br />
 
         </div>
+
+        <div id="arrow" class="arrow">
+               
+            <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img src="../assets/arrow.png" alt="back to top" style="cursor: pointer;"></a>
+
+        </div>
+          
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
 
         <!--Menu Open/Close-->
 
@@ -112,34 +122,34 @@
 
         </script>
 
-        <!-- <script>
+        <script>
 
-            // When the user scrolls the page, execute myFunction
+              // When the user scrolls the page, execute myFunction
             window.onscroll = function() {myFunction()};
 
             function myFunction() {
 
-            // var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            // var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            // var scrolled = (winScroll / height) * 100;
-            // document.getElementById("myBar").style.width = scrolled + "%";
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
 
             
-        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-           document.getElementById("title").style.fontSize = "20px";
+           if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("title").style.fontSize = "20px";
             } else {
                 document.getElementById("title").style.fontSize = "24px";
             }
 
-            // if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-            //    document.getElementById("arrow").style.display = "block";
-            // } else {
-            //    document.getElementById("arrow").style.display = "none";
-            //}
+            if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+                document.getElementById("arrow").style.display = "block";
+            } else {
+                document.getElementById("arrow").style.display = "none";
+            }
 
             } 
 
-        </script> --> 
+        </script>
 
     </body>
 
