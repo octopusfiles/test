@@ -360,7 +360,7 @@ button {
     
     .nav-links {
         margin: 0px 0px 0px 0px;
-        height: 100vh;
+        height: 150%;
         width: 100vw;
         background-color: black;
         top: 0;
@@ -369,7 +369,6 @@ button {
         overflow: clip;
         padding-left: 35px;
         padding-top: 50px;
-        text-align: left;
         z-index: 2;
         transition: 0.5s;
     }
