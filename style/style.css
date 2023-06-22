@@ -360,7 +360,7 @@ button {
     
     .nav-links {
         margin: 0px 0px 0px 0px;
-        height: 150%;
+        min-height: 150%;
         width: 100vw;
         background-color: black;
         top: 0;
