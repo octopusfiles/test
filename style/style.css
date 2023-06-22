@@ -360,17 +360,19 @@ button {
     
     .nav-links {
         margin: 0px 0px 0px 0px;
-        min-height: 150vh;
+        min-height: 110vh;
         width: 100vw;
         background-color: black;
         top: 0;
+        bottom: -100px;
         right: -100vw;
         position: fixed;
-        overscroll-behavior: contain;
         padding-left: 35px;
         padding-top: 50px;
         z-index: 2;
         transition: 0.5s;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
     }
 
     .nav-links i {
