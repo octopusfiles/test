@@ -41,13 +41,15 @@
                 <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
             </div>
 
-            <i class="open-menu" onclick="showMenu()">menu</i>
+            <i id="open-menu">menu</i>
 
         </div>
 
         <div class="nav-links" id="nav-links">
 
-            <i class="close-menu" onclick="closeMenu()">close</i>
+            <div class="nav-links-content">
+
+            <i class="close-menu">close</i>
 
             <ul>
                 <li><a href="publications.html">Publications</a></li>
@@ -56,6 +58,8 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+
+            </div>
 
         </div>
 
@@ -137,6 +141,34 @@
         <!--Menu Open/Close-->
 
         <script>
+            // Get the modal
+            var modal = document.getElementById("nav-links");
+            
+            // Get the button that opens the modal
+            var id = document.getElementById("open-menu");
+            
+            // Get the <span> element that closes the modal
+            var div = document.getElementsByClassName("close-menu")[0];
+            
+            // When the user clicks the button, open the modal 
+            id.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            div.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+
+        <!-- <script>
 
             var show = document.getElementById("nav-links");
 
@@ -152,7 +184,7 @@
 
             }
 
-        </script>
+        </script> -->
 
         <!--Progress Bar and Title Resize-->
 

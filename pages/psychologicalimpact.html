@@ -41,7 +41,7 @@
                 <a href="../index.html"><img src="../assets/logo.png" alt=""></a>
             </div>
 
-            <i class="open-menu" onclick="showMenu()">menu</i>
+            <i id="open-menu" class="open-menu" onclick="showMenu()">menu</i>
 
         </div>
 
@@ -105,22 +105,50 @@
         <!--Menu Open/Close-->
 
         <script>
+            // Get the modal
+            var modal = document.getElementById("nav-links");
+            
+            // Get the button that opens the modal
+            var id = document.getElementById("open-menu");
+            
+            // Get the <span> element that closes the modal
+            var div = document.getElementsByClassName("close-menu")[0];
+            
+            // When the user clicks the button, open the modal 
+            id.onclick = function() {
+              modal.style.display = "block";
+            }
+            
+            // When the user clicks on <span> (x), close the modal
+            div.onclick = function() {
+              modal.style.display = "none";
+            }
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == nav-links) {
+                modal.style.display = "none";
+              }
+            }
+            </script>
+
+        <!-- <script>
 
             var show = document.getElementById("nav-links");
 
-            function showMenu(){
+          function showMenu(){
 
-            show.style.right = "0";
+                show.style.right = "0";
 
             }
 
             function closeMenu(){
 
-            show.style.right = "-100vw";
+                show.style.right = "-100vw";
 
             }
 
-        </script>
+        </script> -->
 
         <script>
 
