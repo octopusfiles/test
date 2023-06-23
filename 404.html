@@ -95,38 +95,16 @@
             // When the user clicks the button, open the modal 
             id.onclick = function() {
               modal.style.display = "block";
+              document.body.style.overflow = "hidden";
             }
             
             // When the user clicks on <span> (x), close the modal
             div.onclick = function() {
               modal.style.display = "none";
+              document.body.style.overflow = "scroll";
             }
-            
-            // When the user clicks anywhere outside of the modal, close it
-            window.onclick = function(event) {
-              if (event.target == modal) {
-                modal.style.display = "none";
-              }
-            }
+
             </script>
-
-        <!-- <script>
-
-            var show = document.getElementById("nav-links");
-
-          function showMenu(){
-
-                show.style.right = "0";
-
-            }
-
-            function closeMenu(){
-
-                show.style.right = "-100vw";
-
-            }
-
-        </script> -->
 
         <!--Progress Bar and Title Resize-->
 
