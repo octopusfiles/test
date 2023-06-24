@@ -228,6 +228,10 @@ button {
         display: none;
     }
 
+    #open-menu {
+        display: none;
+    }
+
     .close-menu {
         display: none;
     }
