@@ -11,7 +11,8 @@
 }
 
 body {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .html {
@@ -109,10 +110,6 @@ blockquote {
 .nav-links ul li {
     font-size: 15px;
 }
- 
-#title {
-    transition: 0.5s;
-}
 
 .content p {
     line-height: 1.5;
@@ -184,6 +181,13 @@ button {
         font-size: 17px;
         text-align: left;
     }
+
+    blockquote {
+        margin: 15px 0px;
+        padding: 10px 15px;
+        border-left: 5px solid #009c99;
+        font-size: 17px;
+    }
     
     ul, ol {
         font-size: 16px;
@@ -217,11 +221,9 @@ button {
         max-width: 567px;
     }
 
-  
     .nav-logo img {
         height: 100px;
         margin: 20px 0px 20px 0px;
-        
     }
 
     .open-menu {
@@ -271,10 +273,22 @@ button {
     .toc {
         font-size: 13px;
         left: 7.5%;
-        width: 15vw;
+        width: 10vw;
         max-width: 250px;
         position: fixed;
         top:30%;
+        color: #2d2d2d;
+        background-color: transparent;
+    }
+
+    .toc p {
+        font-size: 14px;
+    }
+
+    .toc ul li {
+        font-size: 13px;
+        color: #009c99;
+        cursor: pointer;
     }
 
     .content {
@@ -288,11 +302,6 @@ button {
     .content h2,
     .content h3 {
         padding: 10px 0px 10px 0px;
-    }
-
-    .content h1 {
-        position: sticky;
-        top: 0px;
     }
 
     p {
@@ -323,6 +332,13 @@ button {
     p {
         font-size: 14px;
         text-align: left;
+    }
+
+    blockquote {
+        margin: 15px 0px;
+        padding: 10px 15px;
+        border-left: 5px solid #009c99;
+        font-size: 14px;
     }
     
     ul, ol {
@@ -460,11 +476,6 @@ button {
     .content h2,
     .content h3 {
         padding: 15px 0px 10px 0px;
-    }
-
-    .content h1 {
-        position: sticky;
-        top: -5px;
     }
     
     p {
