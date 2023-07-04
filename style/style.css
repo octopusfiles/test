@@ -287,8 +287,13 @@ button {
 
     .toc ul li {
         font-size: 13px;
-        color: #009c99;
+        color: #2d2d2d;
         cursor: pointer;
+    }
+
+    .toc ul li.active {
+        color: #2baca9;
+        transition: 0.5s ease color;
     }
 
     .content {
@@ -484,6 +489,10 @@ button {
     
     .toc {
         font-size: 13px;
+    }
+
+    .toc ul li a {
+        color: #009c99;
     }
       
     .arrow {
