@@ -21,7 +21,7 @@ body {
 
 .tbd {
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
 
 h1, h2, h3, p, ul, ol, i, blockquote, .pullquote {
@@ -334,6 +334,11 @@ button {
         border-radius: 10%;
     }
 
+    img {
+        max-width: inherit;
+        border-radius: 2%;
+    }
+
 }
 
 
@@ -514,6 +519,11 @@ button {
         padding: 10px;
         background-color: #009c99;
         border-radius: 10%;
+    }
+
+    img {
+        max-width: inherit;
+        border-radius: 2%;
     }
 
 }
