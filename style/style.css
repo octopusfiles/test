@@ -385,6 +385,14 @@ button {
         font-size: 20px;
         font-weight: normal;
     }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home ul li {
+        font-size: 15px;
+    }
             
     .nav-bar {
         display: flex;
@@ -519,7 +527,7 @@ button {
         display: none;
         position: fixed;
         bottom: 10px;
-        right: 10px;
+        right: 50px;
         animation-name: arrowappear;
         animation-duration: 0.5s;
     }
@@ -576,6 +584,14 @@ button {
     .home h1 {
         font-size: 20px;
         font-weight: normal;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home ul li {
+        font-size: 15px;
     }
             
     .nav-bar {
