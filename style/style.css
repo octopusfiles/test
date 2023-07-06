@@ -171,10 +171,15 @@ blockquote {
 button {
     background-color: #009c99;
     color: #f1f1f1;
-    margin: 5px;
-    padding: 5px 15px;
+    margin: 0 5px;
+    padding: 3px 15px;
     border-radius: 10%;
     cursor: pointer; 
+}
+
+a.btn {
+    background-color: transparent;
+    color: #f1f1f1;
 }
 
 @media screen and (min-width:1090px)  {
