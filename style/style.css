@@ -302,12 +302,12 @@ a.btn {
 
     .nav-links ul li a:hover {
         color: #009c99;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .nav-links ul li a:active {
         color: #009c99;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .nav-links ul li a:visited {
@@ -484,12 +484,12 @@ a.btn {
 
     .nav-links ul li a:hover {
         color: #009c99;
-        text-decoration: underline;
+        text-decoration: none   ;
     }
 
     .nav-links ul li a:active {
         color: #009c99;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .nav-links ul li a:visited {
