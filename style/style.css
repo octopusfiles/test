@@ -23,6 +23,16 @@ body {
     display: flex;
 }
 
+.footer ul li {
+    list-style: none;
+    flex-direction: row;
+    background-color: #2d2d2d;
+    color: #f1f1f1;
+    padding: 10px 0;
+    margin: 0 25px 0 0;
+    font-size: 14px;
+}
+
 .html {
     scroll-behavior: smooth;
 }
@@ -250,16 +260,6 @@ a.btn {
         display: flex;
     }
 
-    .footer ul li {
-        list-style: none;
-        flex-direction: row;
-        background-color: #2d2d2d;
-        color: #f1f1f1;
-        padding: 10px 0;
-        margin: 0 30px 0 0;
-        font-size: 14px;
-    }
-
     .nav-bar {
         margin: auto;
         width: 50%;
@@ -442,16 +442,6 @@ a.btn {
         display: flex;
     }
 
-    .footer ul li {
-        list-style: none;
-        flex-direction: row;
-        background-color: #2d2d2d;
-        color: #f1f1f1;
-        padding: 10px 0;
-        margin: 0 30px 0 0;
-        font-size: 14px;
-    }
-
     .nav-bar {
         margin: auto;
         width: 50%;
@@ -630,16 +620,6 @@ a.btn {
         width: 70%;
         margin: 0 0 0 50px;
         display: flex;
-    }
-
-    .footer ul li {
-        list-style: none;
-        flex-direction: row;
-        background-color: #2d2d2d;
-        color: #f1f1f1;
-        padding: 10px 0;
-        margin: 0 30px 0 0;
-        font-size: 14px;
     }
             
     .nav-bar {
@@ -846,16 +826,6 @@ a.btn {
         width: 85%;
         margin: auto;
         display: flex;
-    }
-
-    .footer ul li {
-        list-style: none;
-        flex-direction: row;
-        background-color: #2d2d2d;
-        color: #f1f1f1;
-        padding: 10px 0;
-        margin: 0 20px 0 0;
-        font-size: 14px;
     }
             
     .nav-bar {
