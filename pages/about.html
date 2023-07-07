@@ -54,11 +54,10 @@
         <i class="close-menu">close</i>
 
         <ul>
-            <li><a href="publications.html">Publications</a></li>
-            <li><a href="sessions.html">Public Sessions</a></li>
-            <li><a href="acknowledgements.html">Acknowledgements</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="publications.html">[ Publications ]</a></li>
+            <li><a href="sessions.html">[ Public Sessions ]</a></li>
+            <li class="menu-on"><a href="about.html">[ About ]</a></li>
+            <li><a href="contact.html">[ Contact ]</a></li>
         </ul>
 
         </div>
@@ -79,6 +78,26 @@
 
             <br><br>
 
+            <h2>Acknowledgements</h2>
+
+            <p>
+                <span class="tbd">This project owes a great debt to the following:</span>
+            </p>
+
+            <ul>
+                <li>The Wellcome grant,</li>
+                <li>The Nehru Memorial Museum and Library,</li>
+                <li>Archives in Delhi, Calcutta, London, San Francisco, and Edinburgh,</li>
+                <li>Hospital archives in Bangalore, Ranchi, Nagpur, and Tezpur</li>
+            </ul>
+            
+
+            <br><br>
+
+
+            <h2>About Us</h2>
+
+
             <ul>
                 <li>
                     <p>Alok Sarin<span class="tbd"> is a doctor and also other things. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here. Text goes here.</span></p>
@@ -89,9 +108,19 @@
             </ul>
             
 
-            <br /><br />
+            <br><br>
 
         </div>
+
+        <div id="arrow" class="arrow">
+               
+            <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img src="../assets/arrow.png" alt="back to top" style="cursor: pointer;"></a>
+
+        </div>
+          
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>
 
         <!--Menu Open/Close-->
 
@@ -119,7 +148,7 @@
 
             </script>
 
-        <!-- Progress Bar and Title Resize
+        <!-- Progress Bar and Title Resize -->
 
         <script>
 
@@ -128,14 +157,20 @@
 
             function myFunction() {
 
-            // var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-            // var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-            // var scrolled = (winScroll / height) * 100;
-            // document.getElementById("myBar").style.width = scrolled + "%";
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+
+            if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+                    document.getElementById("arrow").style.display = "block";
+                } else {
+                    document.getElementById("arrow").style.display = "none";
+                }
 
             } 
 
-        </script> -->
+        </script>
 
 
     </body>

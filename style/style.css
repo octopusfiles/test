@@ -15,6 +15,14 @@ body {
     overflow-x: hidden;
 }
 
+.footer {
+    background-color: #2d2d2d;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
 .html {
     scroll-behavior: smooth;
 }
@@ -117,6 +125,11 @@ blockquote {
     font-size: 15px;
 }
 
+.menu-on {
+    text-decoration: underline solid #009c99 2px;
+    text-underline-offset: 5px;
+}
+
 .content p {
     line-height: 1.5;
 }
@@ -182,7 +195,7 @@ a.btn {
     color: #f1f1f1;
 }
 
-@media screen and (min-width:1090px)  {
+@media screen and (min-width:1650px)  {
 
     body {
         width: 100%;
@@ -228,6 +241,214 @@ a.btn {
 
     .home h1 {
         font-weight: normal;
+    }
+
+    .footer ul {
+        width: 40%;
+        margin: auto;
+        display: flex;
+    }
+
+    .footer ul li {
+        list-style: none;
+        flex-direction: row;
+        background-color: #2d2d2d;
+        color: #f1f1f1;
+        padding: 10px 0;
+        margin: 0 30px 0 0;
+        font-size: 14px;
+    }
+
+    .nav-bar {
+        margin: auto;
+        width: 50%;
+        max-width: 567px;
+    }
+
+    .nav-logo img {
+        height: 100px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .open-menu {
+        display: none;
+    }
+
+    #open-menu {
+        display: none;
+    }
+
+    .close-menu {
+        display: none;
+    }
+
+    .nav-links {
+        margin: auto;
+        width: 50%;
+        padding: 0px 0px 50px 0px;
+        max-width: 567px;
+    }
+
+    .nav-links ul li {
+        display: inline-block;
+        padding: 0px 30px 0px 0px;
+    }
+
+    .nav-links ul li a:link {
+        color: #009c99;
+        text-decoration: none;
+     }
+
+    .nav-links ul li a:hover {
+        color: #009c99;
+        text-decoration: underline;
+    }
+
+    .nav-links ul li a:active {
+        color: #009c99;
+        text-decoration: underline;
+    }
+
+    .nav-links ul li a:visited {
+        color: #009c99;
+        text-decoration: none;
+    }
+    
+    .toc {
+        font-size: 15px;
+        right: 15vw;
+        width: 13.5vw;
+        max-width: 220px;
+        min-width: 180px;
+        position: fixed;
+        top:35%;
+        color: #2d2d2d;
+        background-color: transparent;
+        animation-name: arrowappear;
+        animation-duration: 0.5s;
+    }
+
+    .toc p {
+        font-size: 15px;
+    }
+
+    .toc ul li {
+        font-size: 15px;
+        color: #2d2d2d;
+        cursor: pointer;
+        margin: 0 5px 0 0;
+        padding: 0 5px 0 0;
+    }
+
+    .toc ul li.active {
+        color: #2baca9;
+        transition-property: color;
+        transition-duration: 0.5s;
+        border-right: 3px solid #009c99;
+    }
+
+    .content {
+        margin: auto;
+        width: 50%;
+        padding: 10px 0px;
+        max-width: 567px;
+    }
+    
+    .content h1,
+    .content h2,
+    .content h3 {
+        padding: 10px 0px 10px 0px;
+    }
+
+    p {
+        padding: 5px 0px 5px 0px;
+    }
+    
+    .arrow {
+        display: none;
+        position: fixed;
+        bottom: 25px;
+        right: 20vw;
+        animation-name: arrowappear;
+        animation-duration: 0.5s;
+    }
+
+    .arrow img {
+        width: 35px;
+        padding: 10px;
+        background-color: #009c99;
+        border-radius: 10%;
+    }
+
+    .cover img {
+        max-width: 567px;
+        border-radius: 2%;
+    }
+
+}
+
+@media screen and (min-width:1090px) and (max-width:1649px) {
+
+    body {
+        width: 100%;
+    }
+
+    p {
+        font-size: 17px;
+        text-align: left;
+    }
+
+    blockquote {
+        margin: 15px 0px;
+        padding: 10px 15px;
+        border-left: 5px solid #009c99;
+        font-size: 17px;
+    }
+    
+    ul, ol {
+        font-size: 16px;
+    }
+
+    .home-bar {
+        padding: 100px 0px 30px 0px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 40%;
+    }
+
+    .home-logo {
+        padding: 0px 0px 0px 0px;
+    }
+    
+    .home-logo img {
+        height: 150px;
+    }
+    
+    .home {
+        padding: 50px 0px 0px 0px;
+        margin: auto;
+        width: 40%;
+    }
+
+    .home h1 {
+        font-weight: normal;
+    }
+
+    .footer ul {
+        width: 40%;
+        margin: auto;
+        display: flex;
+    }
+
+    .footer ul li {
+        list-style: none;
+        flex-direction: row;
+        background-color: #2d2d2d;
+        color: #f1f1f1;
+        padding: 10px 0;
+        margin: 0 30px 0 0;
+        font-size: 14px;
     }
 
     .nav-bar {
@@ -288,8 +509,9 @@ a.btn {
     .toc {
         font-size: 15px;
         right: 10vw;
-        width: 10vw;
-        max-width: 250px;
+        width: 13.5vw;
+        max-width: 220px;
+        min-width: 180px;
         position: fixed;
         top:35%;
         color: #2d2d2d;
@@ -306,11 +528,15 @@ a.btn {
         font-size: 15px;
         color: #2d2d2d;
         cursor: pointer;
+        margin: 0 5px 0 0;
+        padding: 0 5px 0 0;
     }
 
     .toc ul li.active {
         color: #2baca9;
-        transition: 0.5s ease-in-out color;
+        transition-property: color;
+        transition-duration: 0.5s;
+        border-right: 3px solid #009c99;
     }
 
     .content {
@@ -334,7 +560,7 @@ a.btn {
         display: none;
         position: fixed;
         bottom: 25px;
-        right: 15vw;
+        right: 17.5vw;
         animation-name: arrowappear;
         animation-duration: 0.5s;
     }
@@ -397,6 +623,22 @@ a.btn {
 
     .home ul li {
         font-size: 15px;
+    }
+
+    .footer ul {
+        width: 70%;
+        margin: 0 0 0 50px;
+        display: flex;
+    }
+
+    .footer ul li {
+        list-style: none;
+        flex-direction: row;
+        background-color: #2d2d2d;
+        color: #f1f1f1;
+        padding: 10px 0;
+        margin: 0 30px 0 0;
+        font-size: 14px;
     }
             
     .nav-bar {
@@ -597,6 +839,22 @@ a.btn {
 
     .home ul li {
         font-size: 15px;
+    }
+
+    .footer ul {
+        width: 85%;
+        margin: auto;
+        display: flex;
+    }
+
+    .footer ul li {
+        list-style: none;
+        flex-direction: row;
+        background-color: #2d2d2d;
+        color: #f1f1f1;
+        padding: 10px 0;
+        margin: 0 12px 0 0;
+        font-size: 14px;
     }
             
     .nav-bar {
