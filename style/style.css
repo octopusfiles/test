@@ -136,7 +136,6 @@ blockquote {
 }
 
 .menu-on {
-    text-decoration: underline solid #009c99 2px;
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: #009c99;
