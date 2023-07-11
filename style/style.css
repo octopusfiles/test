@@ -137,7 +137,8 @@ blockquote {
 
 .menu-on {
     text-decoration: underline solid #009c99 2px;
-    -webkir-text-decoration: underline solid #009c99;
+    -webkit-text-decoration: underline solid #009c99;
+    text-decoration-thickness: 2px;
     text-underline-offset: 5px;
 }
 
