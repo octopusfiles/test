@@ -104,14 +104,6 @@ blockquote {
     margin: 15px 0px;
 }
 
-/*.tag {
-    border-color: #009c99;
-    border-radius: 10%;
-    border-style: solid;
-    border-width: 2px;
-    padding: 2px 4px;
-}*/
-
 input {
     appearance: none;
   
@@ -260,6 +252,10 @@ ul, #list {
     
     ul, ol {
         font-size: 16px;
+    }
+
+    .tag {
+    font-size: 15px;
     }
 
     .home-bar {
@@ -463,6 +459,10 @@ ul, #list {
         font-size: 16px;
     }
 
+    .tag {
+        font-size: 15px;
+        }
+
     .home-bar {
         padding: 100px 0px 30px 0px;
         display: flex;
@@ -658,6 +658,10 @@ ul, #list {
     
     ul, ol {
         font-size: 13px;
+    }
+
+    .tag {
+        font-size: 12px;
     }
     
     .home-bar {
@@ -864,6 +868,10 @@ ul, #list {
     
     ul, ol {
         font-size: 13px;
+    }
+    
+    .tag {
+        font-size: 12px;
     }
     
     .home-bar {
