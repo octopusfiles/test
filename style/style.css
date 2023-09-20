@@ -104,6 +104,33 @@ blockquote {
     margin: 15px 0px;
 }
 
+.tag {
+    border-color: #009c99;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2px 4px;
+}
+
+input {
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+  
+    border: 2px solid #999;
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 4px;
+}
+
+input:checked {
+    border: 6px solid #009c99;
+  }
+
 ::-moz-selection { /* Code for Firefox */
     color: black;
     background: #99d7d6;
