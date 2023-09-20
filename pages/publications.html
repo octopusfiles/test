@@ -96,7 +96,13 @@
                     <label><input type="radio" name="tag" value="part" onclick="showHide(4)">Partition</label><br>
                     <label><input type="radio" name="tag" value="law" onclick="showHide(5)">Law</label><br>
                     <label><input type="radio" name="tag" value="pol" onclick="showHide(6)">Policy</label><br>
-                    <label><input type="radio" name="tag" value="prac" onclick="showHide(7)">Practice</label><br>
+                    <label><input type="radio" name="tag" value="prac" onclick="showHide(7)">Practice</label><br><br>
+
+                    <div id="arrow" class="arrow">
+               
+                        <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img src="../assets/arrow.png" alt="back to top" style="cursor: pointer;"></a>
+            
+                    </div>
     
                 </div>
     
@@ -704,16 +710,12 @@
             <br><br>
 
         </div>
-        
-        <div id="arrow" class="arrow">
-               
-            <a onClick="window.scroll({ top: 0,left: 0,behavior: 'smooth' });"><img src="../assets/arrow.png" alt="back to top" style="cursor: pointer;"></a>
-
-        </div>
           
-            <div class="progress-container">
-                <div class="progress-bar" id="myBar"></div>
-            </div>
+        <div class="progress-container">
+
+            <div class="progress-bar" id="myBar"></div>
+            
+        </div>
 
         <!--Menu Open/Close-->
 
@@ -811,11 +813,7 @@
                     })
                     
                 }
-            }
-
-            
-
-                
+            }                
 
         </script>
 

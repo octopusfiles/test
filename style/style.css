@@ -364,7 +364,7 @@ a.btn {
     
     .toc {
         font-size: 15px;
-        right: 15vw;
+        right: 12.5vw;
         width: 13.5vw;
         max-width: 220px;
         min-width: 180px;
@@ -416,7 +416,7 @@ a.btn {
         display: none;
         position: fixed;
         bottom: 25px;
-        right: 20vw;
+        
         animation-name: arrowappear;
         animation-duration: 0.5s;
     }
@@ -566,7 +566,7 @@ a.btn {
     
     .toc {
         font-size: 15px;
-        right: 10vw;
+        right: 7.5vw;
         width: 13.5vw;
         max-width: 220px;
         min-width: 180px;
@@ -618,7 +618,6 @@ a.btn {
         display: none;
         position: fixed;
         bottom: 25px;
-        right: 17.5vw;
         animation-name: arrowappear;
         animation-duration: 0.5s;
     }
