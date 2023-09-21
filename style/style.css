@@ -226,7 +226,7 @@ a.btn {
     color: #f1f1f1;
 }
 
-ul, #list {
+ul.list {
 
     list-style-type: none;
 
