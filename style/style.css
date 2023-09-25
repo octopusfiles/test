@@ -232,12 +232,6 @@ ul.list {
 
 }
 
-.poster {
-    width: 65%;
-    margin: 10px 0 20px 0;
-    border-radius: 2.5%;
-}
-
 @media screen and (min-width:1650px)  {
 
     body {
@@ -439,6 +433,12 @@ ul.list {
     .cover img {
         max-width: 567px;
         border-radius: 2%;
+    }
+
+    .poster {
+        width: 50%;
+        margin: 10px 0 20px 0;
+        border-radius: 2.5%;
     }
 
 }
@@ -644,6 +644,12 @@ ul.list {
     .cover img {
         max-width: 567px;
         border-radius: 2%;
+    }
+
+    .poster {
+        width: 50%;
+        margin: 10px 0 20px 0;
+        border-radius: 2.5%;
     }
 
 }
@@ -855,6 +861,12 @@ ul.list {
         margin: 15px 0 15px 0;
     }
 
+    .poster {
+        width: 65%;
+        margin: 10px 0 20px 0;
+        border-radius: 2.5%;
+    }
+
 } 
 
 
@@ -1063,6 +1075,12 @@ ul.list {
         max-width: 85%;
         border-radius: 2%;
         margin: 15px 0 15px 0;
+    }
+
+    .poster {
+        width: 65%;
+        margin: 10px 0 20px 0;
+        border-radius: 2.5%;
     }
 
 }
