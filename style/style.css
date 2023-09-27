@@ -227,9 +227,7 @@ a.btn {
 }
 
 ul.list {
-
     list-style-type: none;
-
 }
 
 @media screen and (min-width:1650px)  {
@@ -439,6 +437,10 @@ ul.list {
         width: 50%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
+    }
+
+    figcaption {
+        font-size: 14px;
     }
 
 }
@@ -652,6 +654,10 @@ ul.list {
         border-radius: 2.5%;
     }
 
+    figcaption {
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (min-width:549px) and (max-width:1089px) {
@@ -858,13 +864,16 @@ ul.list {
     .cover img {
         max-width: 85%;
         border-radius: 2%;
-        margin: 15px 0 15px 0;
     }
 
     .poster {
         width: 65%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
+    }
+
+    figcaption {
+        font-size: 13px;
     }
 
 } 
@@ -1074,13 +1083,16 @@ ul.list {
     .cover img {
         max-width: 85%;
         border-radius: 2%;
-        margin: 15px 0 15px 0;
     }
 
     .poster {
         width: 65%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
+    }
+
+    figcaption {
+        font-size: 13px;
     }
 
 }
