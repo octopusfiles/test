@@ -176,7 +176,7 @@ input:checked {
   
 /* The progress bar (scroll indicator) */
   .progress-bar {
-    height: 5px;
+    height: 7.5px;
     background: #009c99;
     width: 0%;
 }
