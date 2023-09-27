@@ -230,6 +230,10 @@ ul.list {
     list-style-type: none;
 }
 
+.caption {
+    font-size: 13px;
+}
+
 @media screen and (min-width:1650px)  {
 
     body {
@@ -437,10 +441,6 @@ ul.list {
         width: 50%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
-    }
-
-    figcaption {
-        font-size: 14px;
     }
 
 }
@@ -652,10 +652,6 @@ ul.list {
         width: 50%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
-    }
-
-    figcaption {
-        font-size: 14px;
     }
 
 }
@@ -872,10 +868,6 @@ ul.list {
         border-radius: 2.5%;
     }
 
-    figcaption {
-        font-size: 13px;
-    }
-
 } 
 
 
@@ -1089,10 +1081,6 @@ ul.list {
         width: 65%;
         margin: 10px 0 20px 0;
         border-radius: 2.5%;
-    }
-
-    figcaption {
-        font-size: 13px;
     }
 
 }
