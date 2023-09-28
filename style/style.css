@@ -234,6 +234,15 @@ ul.list {
     font-size: 13px;
 }
 
+.arrow {
+    background: transparent;
+}
+
+.arrow img {
+    width: 35px;
+}
+
+
 @media screen and (min-width:1650px)  {
 
     body {
@@ -376,8 +385,6 @@ ul.list {
         top:35%;
         color: #2d2d2d;
         background-color: transparent;
-        animation-name: arrowappear;
-        animation-duration: 0.5s;
     }
 
     .toc p {
@@ -423,10 +430,6 @@ ul.list {
         
         animation-name: arrowappear;
         animation-duration: 0.5s;
-    }
-
-    .arrow img {
-        width: 35px;
     }
 
     .cover img {
@@ -629,10 +632,6 @@ ul.list {
         bottom: 25px;
         animation-name: arrowappear;
         animation-duration: 0.5s;
-    }
-
-    .arrow img {
-        width: 35px;
     }
 
     .cover img {
@@ -841,10 +840,6 @@ ul.list {
         animation-name: arrowappear;
         animation-duration: 0.5s;
     }
-    
-    .arrow img {
-        width: 35px;
-    }
 
     .cover img {
         max-width: 85%;
@@ -1052,10 +1047,6 @@ ul.list {
         right: 10px;
         animation-name: arrowappear;
         animation-duration: 0.5s;
-    }
-    
-    .arrow img {
-        width: 35px;
     }
 
     .cover img {
