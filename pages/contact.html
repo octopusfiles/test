@@ -85,12 +85,18 @@
             </h1>
 
             <p>
-                You can email us at <strong>contact</strong> [@] <strong>thecanvasaskew</strong> [.] <strong>com</strong>.
+                <strong>contact</strong> [@] <strong>thecanvasaskew</strong> [.] <strong>com</strong><button class="btn" onclick="copy()">&#128231;</button>
             </p>
 
+            <br>
+
             <p>
-                Do write to us if you have any comments, questions, or concerns!
+                Do write to us if you have any comments, questions, or concerns, or if you would like to be added to our mailing list for updates on future public sessions!
             </p>    
+
+            <p>
+                We will not share your email address with anyone else.
+            </p>
             
 
             <br><br>
@@ -121,7 +127,21 @@
               document.body.style.overflow = "scroll";
             }
 
-            </script>
+        </script>
+
+        <script>
+
+            function copy() {
+
+                // Copy the text inside the text field
+                navigator.clipboard.writeText("contact@thecanvasaskew.com");
+
+                // Alert the copied text
+                alert("Copied: contact@thecanvasaskew.com");
+
+            }
+
+        </script>
 
     </body>
 
