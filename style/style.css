@@ -477,7 +477,7 @@ ul.list {
 
     .poster {
         width: 50%;
-        margin: 10px 0 20px 0;
+        margin: 10px 0 20px 15px;
         border-radius: 2.5%;
     }
 
@@ -679,7 +679,7 @@ ul.list {
 
     .poster {
         width: 50%;
-        margin: 10px 0 20px 0;
+        margin: 10px 0 20px 15px;
         border-radius: 2.5%;
     }
 
@@ -886,7 +886,7 @@ ul.list {
 
     .poster {
         width: 65%;
-        margin: 10px 0 20px 0;
+        margin: 10px 0 20px 15px;
         border-radius: 2.5%;
     }
 
@@ -1094,7 +1094,7 @@ ul.list {
 
     .poster {
         width: 65%;
-        margin: 10px 0 20px 0;
+        margin: 10px 0 20px 15px;
         border-radius: 2.5%;
     }
 
