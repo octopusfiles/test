@@ -280,49 +280,6 @@ ul.list {
     opacity: 1;
   }
 
-  a.dload:link {
-    font-size: 15px;
-    color: #2d2d2d;
-    border: 2.5px solid #009c99;
-    text-decoration: none;    
-    border-radius: 10%;
-    background: transparent;
-    padding: 2px 4px;
-    margin: 0 0 0 10px;
-}
-
-a.dload:hover {
-    color: #f1f1f1;
-    border: 2.5px solid #009c99;    
-    border-radius: 10%;
-    background: #009c99;
-    text-decoration: none;
-    padding: 2px 4px;
-    margin: 0 0 0 10px;
-    transition: 0.5s;
-}
-
-a.dload:active {
-    color: #f1f1f1;
-    border: 2.5px solid #009c99;    
-    border-radius: 10%;
-    background: #009c99;
-    text-decoration: none;
-    padding: 2px 4px;
-    margin: 0 0 0 10px;
-    transition: 0.5s;
-}
-
-a.dload:visited {
-    border: 2.5px solid #009c99;    
-    border-radius: 10%;
-    background: transparent;
-    text-decoration: none;
-    padding: 2px 4px;
-    margin: 0 0 0 10px;
-}
-
-
 @media screen and (min-width:1650px)  {
 
     body {
@@ -523,6 +480,47 @@ a.dload:visited {
         border-radius: 2.5%;
     }
 
+    a.dload:link {
+        font-size: 14px;
+        color: #009c99;
+        border: 2.5px solid #009c99;
+        text-decoration: none;    
+        border-radius: 10%;
+        background: transparent;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+    
+    a.dload:hover {
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: #009c99;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:active {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:visited {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+
 }
 
 @media screen and (min-width:1090px) and (max-width:1649px) {
@@ -657,7 +655,6 @@ a.dload:visited {
         transform: translate3d(0, 3px, 0);
     }
     
-    
     .toc {
         font-size: 15px;
         right: 7.5vw;
@@ -723,6 +720,47 @@ a.dload:visited {
         width: 50%;
         margin: 10px 0 20px 15px;
         border-radius: 2.5%;
+    }
+
+    a.dload:link {
+        font-size: 14px;
+        color: #009c99;
+        border: 2.5px solid #009c99;
+        text-decoration: none;    
+        border-radius: 10%;
+        background: transparent;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+    
+    a.dload:hover {
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: #009c99;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:active {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:visited {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
     }
 
 }
@@ -932,6 +970,47 @@ a.dload:visited {
         border-radius: 2.5%;
     }
 
+    a.dload:link {
+        font-size: 12.5px;
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;
+        text-decoration: none;    
+        border-radius: 10%;
+        background: #009c99;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+    
+    a.dload:hover {
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: #009c99;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:active {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:visited {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+
 } 
 
 
@@ -1138,6 +1217,47 @@ a.dload:visited {
         width: 65%;
         margin: 10px 0 20px 15px;
         border-radius: 2.5%;
+    }
+
+    a.dload:link {
+        font-size: 12.5px;
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;
+        text-decoration: none;    
+        border-radius: 10%;
+        background: #009c99;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+    }
+    
+    a.dload:hover {
+        color: #f1f1f1;
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: #009c99;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:active {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
+        transition: 0.5s;
+    }
+    
+    a.dload:visited {
+        border: 2.5px solid #009c99;    
+        border-radius: 10%;
+        background: transparent;
+        text-decoration: none;
+        padding: 2.5px 10px;
+        margin: 0 0 0 10px;
     }
 
 }
