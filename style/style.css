@@ -995,7 +995,7 @@ ul.list {
     a.dload:active {
         border: 2.5px solid #009c99;    
         border-radius: 10%;
-        background: transparent;
+        background: #009c99;
         text-decoration: none;
         padding: 2.5px 10px;
         margin: 0 0 0 10px;
@@ -1005,7 +1005,7 @@ ul.list {
     a.dload:visited {
         border: 2.5px solid #009c99;    
         border-radius: 10%;
-        background: transparent;
+        background: #009c99;
         text-decoration: none;
         padding: 2.5px 10px;
         margin: 0 0 0 10px;
@@ -1244,7 +1244,7 @@ ul.list {
     a.dload:active {
         border: 2.5px solid #009c99;    
         border-radius: 10%;
-        background: transparent;
+        background: #009c99;
         text-decoration: none;
         padding: 2.5px 10px;
         margin: 0 0 0 10px;
@@ -1254,7 +1254,7 @@ ul.list {
     a.dload:visited {
         border: 2.5px solid #009c99;    
         border-radius: 10%;
-        background: transparent;
+        background: #009c99;
         text-decoration: none;
         padding: 2.5px 10px;
         margin: 0 0 0 10px;
