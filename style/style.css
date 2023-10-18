@@ -993,6 +993,7 @@ ul.list {
     }
     
     a.dload:active {
+        color: #f1f1f1;
         border: 2.5px solid #009c99;    
         border-radius: 10%;
         background: #009c99;
@@ -1003,6 +1004,7 @@ ul.list {
     }
     
     a.dload:visited {
+        color: #f1f1f1;
         border: 2.5px solid #009c99;    
         border-radius: 10%;
         background: #009c99;
@@ -1242,6 +1244,7 @@ ul.list {
     }
     
     a.dload:active {
+        color: #f1f1f1;
         border: 2.5px solid #009c99;    
         border-radius: 10%;
         background: #009c99;
@@ -1252,6 +1255,7 @@ ul.list {
     }
     
     a.dload:visited {
+        color: #f1f1f1;
         border: 2.5px solid #009c99;    
         border-radius: 10%;
         background: #009c99;
